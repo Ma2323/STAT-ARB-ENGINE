@@ -2,7 +2,7 @@
 
 An automated quantitative trading backtester designed to systematically identify and exploit mean-reverting asset pairs using the Engle-Granger two-step method. This engine ingests historical price matrices, calculates dynamic hedge ratios, tests for statistical stationarity, and simulates trade execution based on Z-Score divergences.
 
-![Main Dashboard & Equity Curve](assets/dashboard_view.png)
+![Main Dashboard & Equity Curve](assets/dashboard_view1.png)
 
 ## Business Use Case & Assumptions
 
@@ -21,7 +21,7 @@ The engine specifically solves the following quantitative challenges:
 
 The analytical dashboard, built with Streamlit and Plotly, allows users to visually inspect the statistical signals and the resulting equity curve.
 
-![Main Dashboard & Equity Curve](assets/dashboard_view.png)
+![Main Dashboard & Equity Curve](assets/dashboard_view2.png)
 
 * **Z-Score Divergence:** A dual-axis chart mapping the normalized spread against statistical entry and exit thresholds. It clearly visualizes when the spread is overextended and ripe for mean reversion.
 * **Cumulative Strategy Equity Curve:** A visual representation of the strategy's compounding returns over the backtested period, allowing for rapid assessment of historical profitability.
@@ -37,7 +37,7 @@ The analytical dashboard, built with Streamlit and Plotly, allows users to visua
 
 ### 1. Live Interactive Demo (For Recruiters & Hiring Managers)
 To immediately evaluate the statistical arbitrage model, visual signals, and dashboard functionality without setting up a local environment, please access the live application here:
-**[Launch Stat-Arb Engine Dashboard](insert-your-streamlit-cloud-link-here)**
+**[Launch Stat-Arb Engine Dashboard](https://stat-arb-engine-fmq7qujmthwccasnqkbfbr.streamlit.app/)**
 
 ### 2. Local Technical Review (For Engineering Leads)
 If you wish to review the underlying Python architecture and test the statistical cointegration engine locally, please follow these steps.
